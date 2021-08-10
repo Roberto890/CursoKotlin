@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <!--fontFamily - escolhe o tipo da fonte do texto    -->
+    <!--textStyle - muda o tipo da fonta negrito/italico etc.    -->
+    <!--textAllCaps - muda tudo pra maiusculo   -->
+    <!--lineSpacingExtra - muda o espaço entre as linhas   -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/averia_libre"
+        android:text="Elementos de Texto           QUEBRA DE LINHA"
+        android:textStyle="italic"
+        android:textAllCaps="true"
+        android:lineSpacingExtra="10dp"
+        android:textSize="24sp" />
+
+    <!--inputType(se usar | da pra colocar mais de 1) - pode especificar o tipo de dado recebido    -->
+    <!--imeOption - actionSearch deixa a lupa    -->
+    <!--imeOption - actionNext deixa a a setinha    -->
+    <!--hint - deixa um texto por cima     -->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:imeOptions="actionSearch"
+        android:hint="Digite seu Texto"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textAutoCorrect"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"/>
+
+    <!--da pra pular linha em vez de pular de linha    -->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"/>
+
+</LinearLayout>

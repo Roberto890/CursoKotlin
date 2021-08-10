@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/titleRecipe"
+        android:layout_width="0dp"
+        android:layout_height="120dp"
+        android:background="#855E53"
+        android:gravity="center"
+        android:text="@string/tituloCappuccino"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="32sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/timeRecipe"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_margin="15dp"
+        android:src="@drawable/time_brown"
+        app:layout_constraintBottom_toTopOf="@id/linhaView"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/favoriteRecipe"
+        app:layout_constraintTop_toBottomOf="@id/titleRecipe" />
+
+    <ImageView
+        android:id="@+id/favoriteRecipe"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_margin="15dp"
+        android:src="@drawable/favorite_brown"
+        app:layout_constraintBottom_toTopOf="@id/linhaView"
+        app:layout_constraintLeft_toRightOf="@id/timeRecipe"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/titleRecipe" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/texto_tempo"
+        app:layout_constraintEnd_toEndOf="@+id/timeRecipe"
+        app:layout_constraintStart_toStartOf="@+id/timeRecipe"
+        app:layout_constraintTop_toBottomOf="@id/timeRecipe" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/texto_like"
+        app:layout_constraintEnd_toEndOf="@+id/favoriteRecipe"
+        app:layout_constraintStart_toStartOf="@+id/favoriteRecipe"
+        app:layout_constraintTop_toBottomOf="@id/favoriteRecipe" />
+
+    <View
+        android:id="@+id/linhaView"
+        android:layout_width="0dp"
+        android:layout_height="2dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="16dp"
+        android:background="#855E53"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/titleRecipe" />
+
+    <TextView
+        android:id="@+id/descriptionRecipe"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:gravity="center"
+        android:text="@string/receita_cappuccino"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linhaView" />
+
+    <TextView
+        android:id="@+id/textIngredients"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/ingredient"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/descriptionRecipe" />
+
+    <ImageView
+        android:id="@+id/seta1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:src="@drawable/seta_direita"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textIngredients" />
+
+    <TextView
+        android:id="@+id/ingredients1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1 dose espresso"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/seta1"
+        app:layout_constraintStart_toEndOf="@+id/seta1"
+        app:layout_constraintTop_toTopOf="@+id/seta1" />
+
+    <ImageView
+        android:id="@+id/seta2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:src="@drawable/seta_direita"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/seta1" />
+
+    <TextView
+        android:id="@+id/ingredients2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="100ml leite"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/seta2"
+        app:layout_constraintStart_toEndOf="@+id/seta2"
+        app:layout_constraintTop_toTopOf="@+id/seta2" />
+
+    <ImageView
+        android:id="@+id/seta3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:src="@drawable/seta_direita"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/seta2" />
+
+    <TextView
+        android:id="@+id/ingredients3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1 colher de chocolate em pó"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/seta3"
+        app:layout_constraintStart_toEndOf="@+id/seta3"
+        app:layout_constraintTop_toTopOf="@+id/seta3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

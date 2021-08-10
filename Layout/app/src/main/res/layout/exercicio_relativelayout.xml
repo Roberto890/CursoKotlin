@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp"
+    android:background="#08AD7F">
+
+    <EditText
+        android:id="@+id/textEdit1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginBottom="16dp"
+        android:background="#FFF"
+        android:gravity="left|center"
+        android:hint="Email"
+        android:textSize="16dp"
+        android:paddingStart="5dp"
+        android:textColor="#86000000"/>
+
+    <EditText
+        android:id="@+id/textEdit2"
+        android:layout_below="@+id/textEdit1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="16dp"
+        android:background="#FFF"
+        android:gravity="left|center"
+        android:hint="Senha"
+        android:paddingStart="5dp"
+        android:textSize="16dp"
+        android:textColor="#86000000"/>
+
+    <Button
+        android:theme="@style/Theme.BotaoCinzaAtividadeRelativeLayout"
+        android:layout_below="@+id/textEdit2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:text="LOGIN"
+        android:gravity="center"
+        android:textColor="#0AA37D"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Ainda não é cadastrado? Cadastre-se!"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:layout_marginBottom="380dp"
+        android:textColor="#FFF"/>
+
+</RelativeLayout>

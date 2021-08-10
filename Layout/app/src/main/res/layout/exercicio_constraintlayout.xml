@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#08AD7F"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/Email"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:background="#FFF"
+        android:hint="Email"
+        android:padding="8dp"
+        android:textColor="#86000000"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@id/Senha"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <EditText
+        android:id="@+id/Senha"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#FFF"
+        android:layout_marginTop="8dp"
+        android:hint="Senha"
+        android:padding="8dp"
+        android:textColor="#86000000"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@id/Login"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Email" />
+
+    <Button
+        android:id="@+id/Login"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:padding="8dp"
+        android:text="LOGIN"
+        android:textColor="#0AA37D"
+        android:textSize="18sp"
+        android:theme="@style/Theme.BotaoCinzaAtividadeRelativeLayout"
+        app:layout_constraintBottom_toTopOf="@+id/Cadastro"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Senha" />
+
+    <TextView
+        android:id="@+id/Cadastro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Ainda não é cadastrado? Cadastre-se!"
+        android:textColor="#FFF"
+        android:textSize="15sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Login" />
+</androidx.constraintlayout.widget.ConstraintLayout>

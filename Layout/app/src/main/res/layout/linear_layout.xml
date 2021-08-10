@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+<!--    tools:context=".MainActivity">-->
+    <!--  linear Layout ou ele é vertical(arranja os objetos em linhas)
+     ou horizontal(arranja os objetos em colunas)
+      usa o android:orientation pra escolher
+       SE PASSAR DO LIMITE DA TELA ELE NAO COLOCA NA TELA FICA FORA-->
+
+    <!--    match_parent deixa o objeto do tamanho do pai-->
+    <!--    wrap content deixa o objeto do tamanho que ele necessitar-->
+    <!--    linear layout funciona pra dividir usando layout weight
+     pra fazer proporção do tamanho da tela-->
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="TESTE" />
+
+<!--    <TextView-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_weight="1"-->
+<!--        android:text="TESTE" />-->
+
+<!--    pode colocar um linearLayout em outro tambem-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TESTE" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TESTE" />
+    </LinearLayout>
+
+</LinearLayout>

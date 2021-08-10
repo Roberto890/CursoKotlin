@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--faz o scroll na tela se ultrapassar a tela    -->
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:text="TESTE" />
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:text="TESTE" />
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:text="TESTE" />
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:text="TESTE" />
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:text="TESTE" />
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:text="TESTE" />
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:text="TESTE" />
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:text="TESTE" />
+    </LinearLayout>
+
+
+</HorizontalScrollView>

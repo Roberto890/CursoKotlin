@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!-- margin: afasta mas fora do elemento-->
+    <!-- android:layout_margin="16dp"-->
+    <!-- android:layout_marginTop="16dp"-->
+    <!-- android:layout_marginStart="50dp"-->
+    <!-- android:layout_marginBottom="50dp"-->
+
+    <!-- paddin: mesma coisa do margin mas o espaço é dentro do elemento-->
+    <!-- android:padding="16dp"   tambem tem o top bottom etc-->
+
+    <!-- gravity: alinha o conteudo no elemento-->
+    <!-- android:gravity="center"-->
+    <!-- android:gravity="center_horizontal" ENTRE OUTROS-->
+    <!-- android:gravity="right|center_vertical"
+            DA PRA COLOCAR BARRA E COLOCAR MAIS DE UM VALOR-->
+
+    <!-- layout_gravity: alinha o elemento em relação ao pai-->
+    <!-- android:layout_gravity="center"-->
+    <!-- android:layout_gravity="right"-->
+
+    <!-- background: muda a cor do fundo PODE COLOCAR O NO LINEARLAYOUT-->
+    <!-- android:background="#7E3BF4"-->
+
+    <!-- textColor: muda a cor do texto-->
+    <!-- android:textColor="#812103"-->
+
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="#9962F8"
+        android:textColor="#FFFFFF"
+        android:text="TESTE" />
+
+    <!-- View ele "quebra" o texto assim divide a tela -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_margin="16dp"
+        android:background="#0000E4"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="teal_200">#3B8C60</color>
+    <color name="teal_700">#0F5C31</color>
+    <color name="fundo_app">#65BC8D</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#000000</color>
+
+</resources>

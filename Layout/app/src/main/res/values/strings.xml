@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AndroidLayout</string>
+    <string name="receita_cappuccino">Uma simples e perfeitamente extraída dose de espresso misturado com leite fresco e chocolate fazem esta bebida deliciosa.</string>
+    <string name="tituloCappuccino">Cappuccino</string>
+    <string name="texto_tempo">15 minutos</string>
+    <string name="texto_like">54214</string>
+    <string name="ingredient">Ingredientes</string>
+</resources>
