@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Navigation Drawer + enviar email</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_principal">Principal</string>
+    <string name="menu_services">Serviços</string>
+    <string name="menu_clients">Clientes</string>
+    <string name="menu_contact">Contato</string>
+    <string name="menu_about">Sobre</string>
+
+    <string name="navegacao_titulo">ATM Consultoria</string>
+    <string name="navegacao_email">atendimento@atmconsultoria.com.br</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="entre_em_contato">Entre em Contato</string>
+    <string name="sistema_gestao_qualidade">Sistema de gestão de qualidade</string>
+    <string name="loreipsum1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer risus libero, volutpat sed posuere ut, pharetra lobortis nulla. Fusce tincidunt dapibus sapien, a consectetur nisi convallis quis. In accumsan tortor elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus facilisis nibh ut elit posuere tempus. Integer blandit risus urna, eget congue ipsum vestibulum ut. Duis magna nunc, tincidunt sit amet lacus a, faucibus aliquam lacus. Donec sed ullamcorper tellus. Curabitur sit amet nibh ut erat blandit feugiat. Nunc accumsan arcu eu lacinia accumsan. Fusce congue nulla a elit egestas, ac euismod elit feugiat. Nullam at rhoncus ex. Sed ac feugiat quam. Nam eget metus et elit condimentum aliquam. Fusce at dolor eu urna pharetra laoreet. Donec pellentesque nibh eget ipsum tristique auctor.</string>
+    <string name="indicadores_desempenho">Indicadores de desempenho</string>
+    <string name="loreipsum2">Cras sit amet quam fermentum, tempor tellus ut, tempor elit. Donec sit amet consequat tortor, vel auctor leo. Praesent tristique eu risus vel viverra. Pellentesque tincidunt tellus arcu, in sagittis lorem pharetra sed. Quisque sed velit mattis orci viverra eleifend quis et metus. Etiam sed lacus ac nibh lacinia aliquam. Donec at turpis eros. Quisque ac metus felis. Maecenas non augue euismod, luctus mauris vel, varius tellus. Ut lacinia turpis risus, efficitur iaculis dolor interdum vel. Etiam urna nisi, tempus vitae sem et, varius pharetra metus. Donec quam risus, tempor nec imperdiet vel, scelerisque ut lorem. In pellentesque, metus vitae efficitur dapibus, massa ex auctor leo, vitae rutrum mi odio in risus.</string>
+    <string name="Clients">Clientes</string>
+    <string name="clients_text">Em mais de 15 anos de existência a ATM acumula experiência em serviços de consultoria para empresas nacionais e multicaionais de diversos, portes tendo atendido mais de 1000 empresas desde sua abertura.</string>
+</resources>
