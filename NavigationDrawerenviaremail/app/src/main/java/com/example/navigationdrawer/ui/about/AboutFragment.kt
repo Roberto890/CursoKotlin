@@ -6,6 +6,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.example.navigationdrawer.R
+import mehdi.sakout.aboutpage.AboutPage
+import mehdi.sakout.aboutpage.Element
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -34,8 +36,26 @@ class AboutFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_about, container, false)
+
+        val version = Element().setTitle("Versão 1.0")
+
+        return AboutPage(activity)
+            .setImage(R.drawable.logo)
+            .setDescription("ATM consltoria tem missão de apoiar quem desejam alçancar" +
+                    " o sucesso atráves da exelencia em gestao")
+            .addGroup("Entre em contato")
+            .addEmail("atendimento@atmconsultoria.com.br")
+            .addWebsite("https://www.google.com.br", "Acesse nosso site")
+            .addGroup("Redes Sociais")
+            .addFacebook("MercadoDeSkyrim", "Facebook")
+            .addTwitter("twitter", "Twitter")
+            .addYoutube("youtube", "Youtube")
+            .addPlayStore("com.facebook.katana", "Download")
+            .addItem(version)
+            .create()
+
+
+
     }
 
     companion object {

@@ -22,5 +22,7 @@
     <string name="indicadores_desempenho">Indicadores de desempenho</string>
     <string name="loreipsum2">Cras sit amet quam fermentum, tempor tellus ut, tempor elit. Donec sit amet consequat tortor, vel auctor leo. Praesent tristique eu risus vel viverra. Pellentesque tincidunt tellus arcu, in sagittis lorem pharetra sed. Quisque sed velit mattis orci viverra eleifend quis et metus. Etiam sed lacus ac nibh lacinia aliquam. Donec at turpis eros. Quisque ac metus felis. Maecenas non augue euismod, luctus mauris vel, varius tellus. Ut lacinia turpis risus, efficitur iaculis dolor interdum vel. Etiam urna nisi, tempus vitae sem et, varius pharetra metus. Donec quam risus, tempor nec imperdiet vel, scelerisque ut lorem. In pellentesque, metus vitae efficitur dapibus, massa ex auctor leo, vitae rutrum mi odio in risus.</string>
     <string name="Clients">Clientes</string>
+    <string name="Contact">Contato</string>
     <string name="clients_text">Em mais de 15 anos de existência a ATM acumula experiência em serviços de consultoria para empresas nacionais e multicaionais de diversos, portes tendo atendido mais de 1000 empresas desde sua abertura.</string>
+    <string name="contact_text">atendimento@atmmconsultoria.com.br</string>
 </resources>
